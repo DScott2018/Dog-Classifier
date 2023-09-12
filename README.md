@@ -4,8 +4,6 @@ My first Ai model. This repo includes the training script, the loading script to
 
 Data: the data directory is comprised of around 23,000 - 26,000 images of various animals. This data should be used for training your model.
 
-Model: the model directory has only one trained model that is ready to go. It has an accuracy of ~90%.
-
 trainModel.py: This script is what I came up with for training the model. While simple, it does the job efficiently and effectively. You can change the amount of epochs to train it more so that the training line and validation line get very close, making the model much closer to a 100% accuracy.
 
 feedModel.py: This script is to be used on a trained and saved model. Using this, you can load up a model and feed it a single image of your choosing so you can see what decision is being made by the model and if it is correct.
